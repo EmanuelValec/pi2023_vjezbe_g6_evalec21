@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.dgvStudents = new System.Windows.Forms.DataGridView();
+            this.btnEvaluirajStudenta = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudents)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,11 +45,22 @@
             this.dgvStudents.Size = new System.Drawing.Size(776, 390);
             this.dgvStudents.TabIndex = 0;
             // 
+            // btnEvaluirajStudenta
+            // 
+            this.btnEvaluirajStudenta.Location = new System.Drawing.Point(639, 415);
+            this.btnEvaluirajStudenta.Name = "btnEvaluirajStudenta";
+            this.btnEvaluirajStudenta.Size = new System.Drawing.Size(149, 23);
+            this.btnEvaluirajStudenta.TabIndex = 1;
+            this.btnEvaluirajStudenta.Text = "Evaluiraj studenta";
+            this.btnEvaluirajStudenta.UseVisualStyleBackColor = true;
+            this.btnEvaluirajStudenta.Click += new System.EventHandler(this.btnEvaluirajStudenta_Click);
+            // 
             // FrmStudents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnEvaluirajStudenta);
             this.Controls.Add(this.dgvStudents);
             this.Name = "FrmStudents";
             this.Text = "FrmStudents";
@@ -61,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvStudents;
+        private System.Windows.Forms.Button btnEvaluirajStudenta;
     }
 }

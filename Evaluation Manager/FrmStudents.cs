@@ -33,5 +33,9 @@ namespace Evaluation_Manager
             dgvStudents.Columns["LastName"].DisplayIndex = 2;
             dgvStudents.Columns["Grade"].DisplayIndex = 3;
         }
+
+        private void btnEvaluirajStudenta_Click(object sender, EventArgs e) {
+
+        }
     }
 }

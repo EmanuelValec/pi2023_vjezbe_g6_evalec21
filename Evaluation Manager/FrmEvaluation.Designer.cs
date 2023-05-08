@@ -49,6 +49,7 @@
             this.cboActivities.Name = "cboActivities";
             this.cboActivities.Size = new System.Drawing.Size(196, 21);
             this.cboActivities.TabIndex = 0;
+            this.cboActivities.SelectedIndexChanged += new System.EventHandler(this.cboActivities_SelectedIndexChanged);
             // 
             // txtMinForSignature
             // 
@@ -169,6 +170,7 @@
             this.btnCancel.TabIndex = 14;
             this.btnCancel.Text = "Odustani";
             this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // FrmEvaluation
             // 
