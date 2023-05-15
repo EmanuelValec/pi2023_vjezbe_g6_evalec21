@@ -22,5 +22,6 @@ namespace Evaluation_Manager.Models {
                 EvaluationRepository.UpdateEvalation(evaluation, this, points);
             }
         }
+
     }
 }
