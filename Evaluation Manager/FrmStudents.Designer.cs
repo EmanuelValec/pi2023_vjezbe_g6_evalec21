@@ -43,7 +43,7 @@
             this.dgvStudents.Location = new System.Drawing.Point(12, 12);
             this.dgvStudents.Name = "dgvStudents";
             this.dgvStudents.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvStudents.Size = new System.Drawing.Size(513, 397);
+            this.dgvStudents.Size = new System.Drawing.Size(647, 397);
             this.dgvStudents.TabIndex = 0;
             // 
             // btnEvaluirajStudenta

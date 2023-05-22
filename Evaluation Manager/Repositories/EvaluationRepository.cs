@@ -71,4 +71,5 @@ namespace Evaluation_Manager.Repositories {
             DB.ExecuteCommand(sql);
             DB.CloseConnection();
         }
+    }
 }
