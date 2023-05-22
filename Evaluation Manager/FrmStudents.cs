@@ -37,5 +37,10 @@ namespace Evaluation_Manager
         private void btnEvaluirajStudenta_Click(object sender, EventArgs e) {
 
         }
+
+        private void btnGenerateReport_Click(object sender, EventArgs e) {
+            var form = new FrmFinalReport();
+            form.ShowDialog();
+        }
     }
 }
